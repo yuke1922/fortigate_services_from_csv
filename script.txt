@@ -1,0 +1,7 @@
+config firewall service custom
+edit UDP-3000_3200
+set comment comment
+set udp-portrange 3000:3200
+next
+end
+
